@@ -1,0 +1,199 @@
+.right-content{
+			float:right;
+		}
+
+
+		body{
+			margin:15px 25px 25px 15px;
+			
+		}
+
+
+		h1{
+			font-family:prociono;
+		}
+
+
+		.right-content span{
+			font-family: monospace;
+			font-weight: bolder;
+		}
+
+
+		.clear-float{
+			clear:both;
+		}
+
+
+		.thick-line{
+			height:5px;
+			background-color:rgb(128, 150, 171);
+		}
+
+
+		.left-content{
+			float:left;
+		}
+
+
+		.header-image{
+			width:100px;
+			height:100px;
+			margin:15px;
+		}
+		.section-row{
+			width:100%;
+			/*height: 150px;*/
+			
+			margin-bottom:25px;
+		}
+		
+		
+		.img-title{
+			text-align: center;
+		}
+
+
+		.section-image{
+			width:100%;
+			height:100px;
+			/*margin:25px;*/
+		}
+
+
+		.section-title{
+			font-family:cursive;
+			font-weight: bold;
+			text-align: center;
+		}
+
+
+		.main-image-1,.main-image-2{
+			width:100%;
+			height:250px;
+			border:1px solid;
+			/*border-radius: 20%;*/
+		}
+
+
+		.ant-image{
+			width:100%;
+			opacity:0.5;
+			z-index:1000;
+		}
+		.featured-image{
+			width:100%;
+			height:100px;
+		}
+
+
+		.link-title{
+			text-align: center;
+			font-weight: bolder;
+		}
+
+		.p-text{
+			font-family: Indie Flower,cursive;
+			font-size:28px;
+		}
+		
+
+		*{
+			-webkit-transition:all 1s ease;
+			-moz-transition:all 1s ease;
+			-o-transition:all 1s ease;
+			transition:all 1s ease;
+		}
+
+		@media screen and (max-width: 320px){
+			
+
+			.header-image{
+				display:none;
+			}
+
+
+			.right-content{
+				font-size:20px;
+			}
+
+			.p-text{
+				font-size: 14px;
+			}
+		}
+
+
+		@media screen and (max-width: 463px) and (min-width:321px){
+
+
+			.header-image{
+				width:50px;
+				height:50px;
+				margin:5px;
+				margin-top: 30px;
+			}
+
+
+			h1{
+				font-size: 28px;
+			}
+
+
+			.right-content{
+				font-size:20px;
+			}
+			
+
+			.section-image{
+				width:50%;
+				margin: 20px 20px 20px 90px;
+			}
+
+
+			.section-title{
+				text-align: center;
+			}
+
+
+			.featured-image{
+				width:70%;
+				margin:20px;
+			}
+
+			.p-text{
+				font-size: 18px
+			}
+
+		}
+
+		@media screen and (max-width: 999px) and (min-width:500px){
+			
+
+			.section-image{
+				width:50%;
+				margin: 20px 20px 20px 160px;
+			}
+
+
+			.section-title{
+				text-align: center;
+			}
+
+
+			.featured-image{
+				width:70%;
+				margin: 0px 20px 10px 80px;
+				box-shadow: 10px 10px 5px #888888;
+			}
+
+
+			.link-title{
+				margin-bottom: 20px;
+			}
+
+			.p-text{
+				font-size: 22px
+			}
+
+
+		}
